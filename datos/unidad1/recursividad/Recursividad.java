@@ -12,8 +12,20 @@ public class Recursividad {
 		}
 	}
 
+
+    public static void cuentaRegresiva(int n){
+         if (n < 1){
+                 return;
+         } else {
+                 System.out.print(n + " ");
+                 cuentaRegresiva(n-1);
+         }
+    }
+
+
 	public static void main(String[] args) {
-                      saludo("Lluvia", 10);
+                      //saludo("Lluvia", 100);
+                        cuentaRegresiva(100);
 
 	
 	}
