@@ -11,6 +11,12 @@ public class Recursividad {
 			saludo(nombre,total-1);
 		}
 	}
+/**
+*Funcion que realiza cuenta regresiva de acuerdo a un 
+*valor entero
+*Fecha:25 de Septiembre
+* Autor:Lluvia Villanueva
+*/
 
 
     public static void cuentaRegresiva(int n){
