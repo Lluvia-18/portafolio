@@ -29,11 +29,26 @@ public class Recursividad {
     }
 
 
+   
+    public static int sumaRecursiva(int []datos, int longitud){
+
+     if (longitud == 0){
+          return 0;
+     } else {
+        return datos[longitud - 1] + sumaRecursiva(datos, longitud - 1);
+     }
+    }
+
+
 	public static void main(String[] args) {
                       //saludo("Lluvia", 100);
-                        cuentaRegresiva(100);
-
+                       // cuentaRegresiva(100);
+        
+                     int [] datos ={1,2,3,4,5};
+                int resultado = sumaRecursiva(datos, datos.length);
+                        System.out.println("La suma es: " + resultado);
 	
 	}
 }
+
 
