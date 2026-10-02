@@ -1,5 +1,4 @@
 package datos.unidad1.genericos;
-
 public abstract class Producto <T>{
 
    protected String nombre;
