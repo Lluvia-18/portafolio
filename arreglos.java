@@ -1,5 +1,7 @@
 package datos.practicos.ejercicio1;
 
+//Autor:Lluvia Estefania Villanueva Lazo
+
 public class arreglos {
 
     public static void main(String[] args) {
